@@ -1,0 +1,50 @@
+/* Joakim */
+
+.Slideshow {
+    margin-bottom: 90px;
+}
+
+.Slideshow__Items {
+    height: 400px;
+    margin: auto;
+}
+
+.Slideshow__Items .owl-wrapper-outer {
+    overflow: hidden;
+}
+
+.owl-item .active {
+    display: block;
+}
+
+.Slideshow__Items .owl-item {
+    float: left;
+}
+
+.Slideshow__Items .Slideshow__Image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dot {
+    border-radius: 50%;
+    border: 1px solid black;
+    background: transparent;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.owl-dots .active {
+    background: #cd6949;
+}
